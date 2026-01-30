@@ -3103,6 +3103,7 @@ let ProcessFrames = (Output, frameCount, speed, frequency, pitches, amplitude, s
  * @param {Number} [throat]
  * @param {Number} [speed]
  * @param {Boolean} [singmode]
+ * @param {Boolean} [phonetic]
  *
  * @return Uint8Array
  */
@@ -3147,6 +3148,7 @@ let PrintOutput = (pitches, frequency, amplitude, sampledConsonantFlag) => {
  * @param {String} input
  *
  * @param {object}  [options]
+ * @param {Boolean} [options.phonetic] Default false.
  * @param {Boolean} [options.singmode] Default false.
  * @param {Number}  [options.pitch]    Default 64.
  * @param {Number}  [options.speed]    Default 72.
@@ -3170,6 +3172,7 @@ let SamBuffer = (input, options) => {
  *
  * @param {object}  [options]
  * @param {Boolean} [options.singmode] Default false.
+ * @param {Boolean} [options.phonetic] Default false.
  * @param {Number}  [options.pitch]    Default 64.
  * @param {Number}  [options.speed]    Default 72.
  * @param {Number}  [options.mouth]    Default 128.
