@@ -31,12 +31,12 @@
 <h1> SAM Software Automatic Mouth</h1>
 <h2>What is SAM?</h2>
 <p>
-Sam is a very small Text-To-Speech (TTS) program written in Javascript,
-that runs on most popular platforms. It is an adaption to Javascript of
-the speech software SAM (Software Automatic Mouth) for the Commodore
-C64 published in the year 1982 by Don't Ask Software
-(now SoftVoice, Inc.). It includes a Text-To-Phoneme converter called
-reciter and a Phoneme-To-Speech routine for the final output.
+Software Automatic Mouth is a very small Text-To-Speech (TTS) program
+written in Javascript, that runs on most popular platforms. It is an
+adaption to Javascript of the speech software SAM (Software Automatic
+Mouth) for the Commodore C64 published in the year 1982 by Don't Ask
+Software (now SoftVoice, Inc.). It includes a Text-To-Phoneme converter
+called Reciter and a Phoneme-To-Speech routine for the final output.
 </p>
 <p>
 Currently compatible with Firefox, Chrome, Safari + iOS.
@@ -116,6 +116,7 @@ and the refactored versions by
     <label id="speed-lbl" for="speed">Speed:   </label><input type="range" id="speed" min="1" max="255" value="0" />
     <label id="mouth-lbl" for="mouth">Mouth:   </label><input type="range" id="mouth" min="0" max="255" value="0" />
     <label id="throat-lbl" for="throat">Throat: </label><input type="range" id="throat" min="0" max="255" value="0" />
+    <label id="throat-lbl" for="throat">Phonetic: </label><input type="checkbox" id="phonetic"/>
     <input type="button" id="say" value="Say">
     <input type="button" id="download" value="Download">
   </div>
