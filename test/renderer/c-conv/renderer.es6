@@ -444,6 +444,7 @@ function RescaleAmplitude (amplitude) {
  * @param {Number} [throat]
  * @param {Number} [speed]
  * @param {Boolean} [singmode]
+ * @param {Boolean} [phonetic]
  *
  * @return Uint8Array
  */
